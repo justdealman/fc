@@ -1,0 +1,206 @@
+﻿/* Default */
+
+html {
+	height:100%;
+}
+body {
+	min-height:700px;
+	width:100%;
+	height:100%;
+	color:#000000;
+	font-size:12px;
+	line-height:16px;
+	font-family:'Arial', sans-serif;
+	padding:0;
+	margin:0;
+	background:#ffffff;
+	-webkit-tap-highlight-color:transparent;
+}
+p {
+	text-indent:0;
+	padding:0;
+	margin:0 0 16px;
+}
+table {
+	margin:0 0 16px;
+	border-collapse:collapse;
+}
+table td {
+	padding:0;
+}
+:focus {
+	outline:none;
+}
+img {
+	padding:0;
+	margin:0;
+	border:0;
+}
+a {
+	color:#000000;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:none;
+}
+form {
+	margin:0;
+}
+ul {
+	margin:0 0 10px 16px;
+	padding:0;
+}
+ul li {
+	padding:0;
+	list-style:none;
+}
+ol {
+	margin:0 0 10px 18px;
+	padding:0;
+}
+* +html ol {
+	padding:0 0 0 5px;
+}
+ol li {
+	padding:0 0 0 16px;
+}
+input, select, textarea {
+	color:#000000;
+	font-size:12px;
+	font-weight:300;
+	font-family:'Arial', sans-serif;
+	padding:0;
+	margin:0;
+	background:none;
+	border:0;
+	-moz-box-shadow:border-box;
+	-webkit-box-shadow:border-box;
+	box-sizing:border-box;
+}
+textarea {
+	overflow:auto;
+}
+button {
+	font-family:'Arial', sans-serif;
+	margin:0;
+	border:0;
+	-moz-box-shadow:border-box;
+	-webkit-box-shadow:border-box;
+	box-sizing:border-box;
+}
+button::-moz-focus-inner {
+	padding:0;
+	border:0;
+}
+::-webkit-input-placeholder  {
+	color:#000000;
+}
+:-moz-placeholder {
+	color:#000000;
+}
+::-moz-placeholder {
+	color:#000000;
+}
+:-ms-input-placeholder {
+	color:#000000;
+}
+.wrapper {
+	position:relative;
+	min-width:1200px;
+	min-height:100%;
+	margin:0 auto;
+	background:url('../img/bg.jpg') no-repeat center top;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
+.logo {
+	position:absolute;
+	left:50%;
+	top:13.6%;
+	display:block;
+	width:428px;
+	height:178px;
+	margin-left:-214px;
+	background:url('../img/logo.png') no-repeat center top;
+}
+.message {
+	position:absolute;
+	left:50%;
+	top:42.7%;
+	display:block;
+	width:1190px;
+	height:94px;
+	margin-left:-595px;
+	background:url('../img/message.png') no-repeat center top;
+}
+.download {
+	position:absolute;
+	left:50%;
+	bottom:30.6%;
+	width:1064px;
+	margin:0 0 0 -532px;
+}
+.download li {
+	width:431px;
+}
+.download li a {
+	display:block;
+	height:39px;
+}
+.download li.ru {
+	float:left;
+}
+.download li.ru a {
+	background:#8c6e49 url('../img/download_ru.png') no-repeat center 11px;
+}
+.download li.en {
+	float:right;
+}
+.download li.en a {
+	background:#8c6e49 url('../img/download_en.png') no-repeat center 11px;
+}
+.download li a:hover {
+	background-color:#000000;
+}
+.contacts {
+	position:absolute;
+	left:50%;
+	bottom:8%;
+	width:960px;
+	text-align:center;
+	margin-left:-480px;
+}
+.contacts span {
+	display:inline-block;
+	width:475px;
+	height:48px;
+	background:url('../img/contacts.png') no-repeat center top;
+}
+.contacts ul {
+	margin:34px 0 0;
+}
+.contacts ul li {
+	display:inline-block;
+	vertical-align:top;
+	margin:0 13px 0 15px;
+}
+.contacts ul li a.facebook {
+	display:block;
+	width:148px;
+	height:20px;
+	background:url('../img/facebook.png') no-repeat center top;
+}
+.contacts ul li a.facebook:hover {
+	background-position:0 -20px;
+}
+.contacts ul li a.instagram {
+	display:block;
+	width:157px;
+	height:20px;
+	background:url('../img/instagram.png') no-repeat center top;
+}
+.contacts ul li a.instagram:hover {
+	background-position:0 -20px;
+}
