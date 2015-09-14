@@ -1,4 +1,16 @@
-﻿/* Default */
+﻿/* Fonts */
+
+@font-face {
+    font-family:'Swiss';
+    src:url('../fonts/swiss.eot');
+    src:url('../fonts/swiss.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/swiss.woff') format('woff'),
+        url('../fonts/swiss.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+/* Default */
 
 html {
 	height:100%;
@@ -178,8 +190,17 @@ button::-moz-focus-inner {
 	height:48px;
 	background:url('../img/contacts.png') no-repeat center top;
 }
+.contacts p {
+	font-size:24px;
+	line-height:30px;
+	font-family:'Swiss', sans-serif;
+	text-align:center;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	margin:0;
+}
 .contacts ul {
-	margin:34px 0 0;
+	margin:32px 0 0;
 }
 .contacts ul li {
 	display:inline-block;
